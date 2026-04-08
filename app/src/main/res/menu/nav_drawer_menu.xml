@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_explore_rooms"
+            android:icon="@drawable/ic_explore"
+            android:title="@string/menu_explore_rooms" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/ic_activities"
+            android:title="@string/menu_activities" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_cart"
+            android:title="@string/menu_cart" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_bookings"
+            android:title="@string/menu_bookings" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_admin_control"
+                android:icon="@drawable/ic_admin"
+                android:title="@string/menu_admin"
+                android:visible="false" /> <item
+            android:id="@+id/nav_eco_info"
+            android:icon="@drawable/ic_eco"
+            android:title="@string/menu_eco_info" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+</menu>

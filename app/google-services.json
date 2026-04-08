@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "391892722343",
+    "firebase_url": "https://app-eco-c38ab-default-rtdb.firebaseio.com",
+    "project_id": "app-eco-c38ab",
+    "storage_bucket": "app-eco-c38ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391892722343:android:39ac4de30ea694976cb182",
+        "android_client_info": {
+          "package_name": "com.example.ecostayretreat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZObz1aUbupu6aiGusX5gjfzQnCuuipQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

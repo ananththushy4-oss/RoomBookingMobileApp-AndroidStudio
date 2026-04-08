@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EcoStay Retreat</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="nic_number">NIC Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account? Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_explore_rooms">Explore Rooms</string>
+    <string name="menu_activities">Activities</string>
+    <string name="menu_cart">My Cart</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_bookings">My Bookings</string>
+    <string name="menu_admin">Admin Control</string>
+    <string name="menu_eco_info">Eco Information</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="welcome_to_ecostay_retreat">Welcome to EcoStay Retreat</string>
+    <string name="search_hint">Search for rooms or activities...</string>
+    <string name="book_a_room">Book a Room</string>
+    <string name="reserve_activity">Reserve Activity</string>
+    <string name="view_bookings">View Bookings</string>
+    <string name="top_rated_rooms">Top Rated Rooms</string>
+    <string name="eco_friendly_activities">Eco-Friendly Activities</string>
+
+    <string name="save_changes">Save Changes</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ecostayretreat.screens.HomeScreen"
+        android:label="@string/menu_home"
+        tools:layout="@layout/screen_home" />
+    <fragment
+        android:id="@+id/nav_explore_rooms"
+        android:name="com.example.ecostayretreat.screens.RoomExplorerScreen"
+        android:label="@string/menu_explore_rooms"
+        tools:layout="@layout/screen_room_explorer" >
+        <action
+            android:id="@+id/action_nav_explore_rooms_to_roomDetailsScreen"
+            app:destination="@id/roomDetailsScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_activities"
+        android:name="com.example.ecostayretreat.screens.ActivitiesScreen"
+        android:label="@string/menu_activities"
+        tools:layout="@layout/screen_activities" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.ecostayretreat.screens.CartScreen"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/screen_cart" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.ecostayretreat.screens.ProfileScreen"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/screen_profile" />
+    <fragment
+        android:id="@+id/nav_bookings"
+        android:name="com.example.ecostayretreat.screens.BookingHistoryScreen"
+        android:label="@string/menu_bookings"
+        tools:layout="@layout/screen_booking_history" />
+    <fragment
+        android:id="@+id/nav_admin_control"
+        android:name="com.example.ecostayretreat.screens.AdminControlScreen"
+        android:label="@string/menu_admin"
+        tools:layout="@layout/screen_admin_control" />
+    <fragment
+        android:id="@+id/nav_eco_info"
+        android:name="com.example.ecostayretreat.screens.EcoInfoScreen"
+        android:label="@string/menu_eco_info"
+        tools:layout="@layout/screen_eco_info" />
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.example.ecostayretreat.screens.NotificationsScreen"
+        android:label="@string/notifications"
+        tools:layout="@layout/screen_notifications" />
+    <fragment
+        android:id="@+id/roomDetailsScreen"
+        android:name="com.example.ecostayretreat.screens.RoomDetailsScreen"
+        android:label="Room Details"
+        tools:layout="@layout/screen_room_details">
+        <argument
+            android:name="roomId"
+            app:argType="string" />
+    </fragment>
+
+    <action android:id="@+id/action_global_nav_notifications"
+        app:destination="@id/nav_notifications" />
+
+</navigation>
